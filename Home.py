@@ -19,16 +19,17 @@ st.write ("# Curry Company Growth Dashboard")
 
 st.markdown(
     """
-    Growth Dashboard foi contruído para acompanhar métricas de crescimento dos Entregadores e Restaurantes.
-    ### Como utilizar esse Growth Dashboard?
-    Visão Empresa:
-        Visão Gerencial: Métricas gerais de comportamento.
-        Visão Tática: Indicadores semanais de crescimento.
-        visão Geográfica: Insights de geolocalização.
+    Este dashboard foi criado para acompanhar as principais métricas de crescimento da empresa, entregadores e restaurantes.
+    ### Como utilizar este Growth Dashboard?
+
+### Visão Empresa
+• **Visão Gerencial:** Métricas gerais de comportamento.  
+• **Visão Tática:** Indicadores semanais de crescimento.  
+• **Visão Geográfica:** Insights de geolocalização.
                 
-    Visão Entregador:
-        Acompanhamento dos indicadores semanais de crescimento.
+### Visão Entregadores
+• Acompanhamento dos indicadores semanais de crescimento.
         
-    Visão Restaurantes:
-        Indicadores semanais de crescimento dos restaurantes
+ ### Visão Restaurantes
+• Indicadores semanais de crescimento dos restaurantes.
 """)
