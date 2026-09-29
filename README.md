@@ -108,6 +108,28 @@ Painel online, hospedado em um Cloud e disponível para acesso em qualquer dispo
 
 O painel pode ser acessado através desse link: https://arthur-projects-curry-company.streamlit.app/
 
+## Estrutura do projeto
+
+```
+Home.py                # ponto de entrada: configuração da página e navegação
+utils.py               # carga/limpeza dos dados, tema visual e componentes (KPIs, cards)
+views/home.py          # página inicial
+views/empresa.py       # Visão Empresa
+views/entregadores.py  # Visão Entregadores
+views/restaurantes.py  # Visão Restaurantes
+.streamlit/config.toml # tema escuro com destaque laranja
+assets/logo.png        # logo
+```
+
+Para rodar localmente:
+
+```
+pip install -r requirements.txt
+streamlit run Home.py
+```
+
+Todas as visões possuem filtros na barra lateral (período, trânsito, clima e tipo de cidade).
+
 # 6. Conclusão
 
 O objetivo desse projeto é criar um conjunto de gráficos e/ou tabelas que exibam essas métricas da melhor forma possível parao CEO.
